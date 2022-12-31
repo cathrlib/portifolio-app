@@ -34,12 +34,6 @@ export const HomePage = () => {
                 <HiArrowNarrowRight className="ml-3" />
               </span>
             </Link>
-            <Link to="about" smooth={true} duration={500}>
-              Trykk for å lær deg den fete teksten
-              <span className="group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className="ml-3" />
-              </span>
-            </Link>
           </button>
         </div>
       </div>
