@@ -19,12 +19,7 @@ export const HomePage = () => {
           <img
             className="w-10"
             src={cover}
-            style={{ width: "350px", height: "300px" }}
-          />
-          <img
-            className="w-10"
-            src={cover}
-            style={{ width: "350px", height: "300px" }}
+            style={{ width: "450px", height: "400px" }}
           />
         </div>
 
@@ -33,6 +28,12 @@ export const HomePage = () => {
         </p>
         <div>
           <button className="text-gray-700 group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#9966CB] hover:border-[#989cab] hover:text-white">
+            <Link to="about" smooth={true} duration={500}>
+              Trykk for å lær deg den fete teksten
+              <span className="group-hover:rotate-90 duration-300">
+                <HiArrowNarrowRight className="ml-3" />
+              </span>
+            </Link>
             <Link to="about" smooth={true} duration={500}>
               Trykk for å lær deg den fete teksten
               <span className="group-hover:rotate-90 duration-300">
